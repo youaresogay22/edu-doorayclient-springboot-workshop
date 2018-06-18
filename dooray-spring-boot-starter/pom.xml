@@ -13,11 +13,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.nhnent.edu.springboot.starter</groupId>
-            <artifactId>dooray-spring-boot-autoconfigure</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-        </dependency>
+        <!-- TODO (6) dooray-spring-boot-autoconfigure:1.0.1-SNAPSHOT dependency 를 추가한다. -->
     </dependencies>
 
     <build>

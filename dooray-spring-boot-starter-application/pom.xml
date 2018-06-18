@@ -24,11 +24,8 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.nhnent.edu.springboot.starter</groupId>
-            <artifactId>dooray-spring-boot-starter</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-        </dependency>
+
+        <!-- TODO (7) dooray-spring-boot-starter:1.0.1-SNAPSHOT dependency 를 추가한다. -->
     </dependencies>
 
 
