@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Bean;
 public class Application {
 
     /**
-     * TODO (8)
+     * TODO (9)
      * DoorayHookSender 를 Autowire 한다.
      */
 
@@ -20,7 +20,7 @@ public class Application {
 
 
     /**
-     * TODO (9)
+     * TODO (10)
      * ApplicationReady 일때!, DoorayHookSender 로 Hook 을 발송한다.
      */
     @Bean
