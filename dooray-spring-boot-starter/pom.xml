@@ -13,7 +13,8 @@
     </properties>
 
     <dependencies>
-        <!-- TODO (6) dooray-spring-boot-autoconfigure:1.0.1-SNAPSHOT dependency 를 추가한다. -->
+        <!-- TODO (6) dooray-spring-boot-autoconfigure:1.0.1-SNAPSHOT dependency 를 추가해 주세요. -->
+        <!-- TODO (6) dooray-spring-boot-autoconfigure：1.0.1-SNAPSHOT dependencyを追加してください。 -->
     </dependencies>
 
     <build>
