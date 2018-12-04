@@ -53,11 +53,15 @@ public class DoorayAutoConfiguration {
     /**
      * TODO (3)
      * DoorayHookSender Bean 이 생성되도록 코드를 작성해 주세요.
+     * DoorayHookSender 두번째 인자는 doorayProperties.getHookUrl() 입니다.
+     * 이 단계에서는 Compile 오류가 발생합니다. 
      */
 
     /**
      * TODO (3)
      * DoorayHookSender Beanが生成されるようにコードを作成してください。
+     * DoorayHookSender二番目の引数は、doorayProperties.getHookUrl() です。
+     * この段階では、Compileエラーが発生します。
      */
     @Bean
     public DoorayHookSender doorayHookSender(RestTemplate restTemplate) {
