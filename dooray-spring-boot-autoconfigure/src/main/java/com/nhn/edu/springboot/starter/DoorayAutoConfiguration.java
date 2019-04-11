@@ -37,15 +37,8 @@ public class DoorayAutoConfiguration {
     private DoorayProperties doorayProperties;
 
     /**
-     * TODO (3)
-     * RestTemplate type의 빈이 선언되어 있지 않으면 RestTemplate Bean을 생성하도록
-     * @ConditionalOnMissingBean 을 이용해서 코드를 작성하세요.
-     */
-
-    /**
-     * TODO (3)
-     * RestTemplate typeのウィーンが宣言されていないとRestTemplate Beanを生成するように
-     * @ConditionalOnMissingBeanを利用してコードを作成してください。
+     * TODO (3) RestTemplate type의 빈이 선언되어 있지 않으면 RestTemplate Bean을 생성하도록 @ConditionalOnMissingBean 을 이용해서 코드를 작성하세요.
+     * TODO (3) RestTemplate typeのウィーンが宣言されていないとRestTemplate Beanを生成するように @ConditionalOnMissingBeanを利用してコードを作成してください。
      */
     @Bean
     public RestTemplate restTemplate() {
@@ -53,17 +46,8 @@ public class DoorayAutoConfiguration {
     }
 
     /**
-     * TODO (4)
-     * DoorayHookSender Bean 이 생성되도록 코드를 작성해 주세요.
-     * DoorayHookSender 두번째 인자는 doorayProperties.getHookUrl() 입니다.
-     * 이 단계에서는 Compile 오류가 발생합니다. 
-     */
-
-    /**
-     * TODO (4)
-     * DoorayHookSender Beanが生成されるようにコードを作成してください。
-     * DoorayHookSender二番目の引数は、doorayProperties.getHookUrl() です。
-     * この段階では、Compileエラーが発生します。
+     * TODO (4) DoorayHookSender Bean 이 생성되도록 코드를 작성해 주세요. DoorayHookSender 두번째 인자는 doorayProperties.getHookUrl() 입니다.
+     * TODO (4) DoorayHookSender Beanが生成されるようにコードを作成してください。 DoorayHookSender二番目の引数は、doorayProperties.getHookUrl() です。
      */
     @Bean
     public DoorayHookSender doorayHookSender(RestTemplate restTemplate) {

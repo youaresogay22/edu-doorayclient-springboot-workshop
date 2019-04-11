@@ -10,13 +10,8 @@ import org.springframework.context.annotation.Bean;
 public class Application {
 
     /**
-     * TODO (9)
-     * @Autowired 로 DoorayHookSender 의존성을 주입합니다.
-     */
-
-    /**
-     * TODO (9)
-     * @AutowiredにDoorayHookSender依存性を注入します。
+     * TODO (9) @Autowired 로 DoorayHookSender 의존성을 주입합니다.
+     * TODO (9) @AutowiredにDoorayHookSender依存性を注入します。
      */
 
     public static void main(String[] args) {
@@ -25,13 +20,8 @@ public class Application {
 
 
     /**
-     * TODO (10)
-     * ApplicationReady 일때!, DoorayHookSender 로 Hook 을 발송하는 빈을 선언해 주세요.
-     */
-
-    /**
-     * TODO (10)
-     * ApplicationReady時！、DoorayHookSenderでHookを送信する空を宣言してください。
+     * TODO (10) ApplicationReady 일때!, DoorayHookSender 로 Hook 을 발송하는 빈을 선언해 주세요.
+     * TODO (10) ApplicationReady時！、DoorayHookSenderでHookを送信する空を宣言してください。
      */
     @Bean
     public ApplicationListener<ApplicationReadyEvent> applicationListener() {
