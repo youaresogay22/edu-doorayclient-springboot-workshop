@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.starter;
+package com.nhn.edu.springboot.starter.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

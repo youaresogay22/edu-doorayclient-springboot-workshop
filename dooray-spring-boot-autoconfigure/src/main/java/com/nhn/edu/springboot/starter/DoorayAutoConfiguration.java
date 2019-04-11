@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.starter;
+package com.nhn.edu.springboot.starter;
 
 import com.nhnent.dooray.client.DoorayHookSender;
 import org.springframework.beans.factory.annotation.Autowired;

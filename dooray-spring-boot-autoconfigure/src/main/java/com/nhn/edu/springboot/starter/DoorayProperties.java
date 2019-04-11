@@ -1,4 +1,4 @@
-package com.nhnent.edu.springboot.starter;
+package com.nhn.edu.springboot.starter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
