@@ -22,7 +22,7 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- TODO (7) dooray-spring-boot-starter:1.0.1-SNAPSHOT dependency 를 추가해 주세요. -->

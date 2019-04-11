@@ -16,10 +16,8 @@ public class Application {
 
     /**
      * TODO (9)
-     *
      * @AutowiredにDoorayHookSender依存性を注入します。
      */
-
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
@@ -37,7 +35,6 @@ public class Application {
      */
     @Bean
     public ApplicationListener<ApplicationReadyEvent> applicationListener() {
-        return (event) -> {
-        };
+        return (event) -> { };
     }
 }
