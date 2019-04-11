@@ -1,5 +1,7 @@
 package com.nhn.edu.springboot.starter.application;
 
+import com.nhnent.dooray.client.DoorayHook;
+import com.nhnent.dooray.client.DoorayHookSender;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -16,9 +18,14 @@ public class Application {
 
     /**
      * TODO (9)
-     *
      * @AutowiredにDoorayHookSender依存性を注入します。
      */
+    
+    private final DoorayHookSender doorayHookSender;
+
+    public Application(DoorayHookSender doorayHookSender) {
+        this.doorayHookSender = doorayHookSender;
+    }
 
 
     public static void main(String[] args) {
@@ -38,6 +45,10 @@ public class Application {
     @Bean
     public ApplicationListener<ApplicationReadyEvent> applicationListener() {
         return (event) -> {
+            this.doorayHookSender.send(DoorayHook.builder()
+                                                 .botName("Gus Fring")
+                                                 .text("Welcome to Los Pollos Hermanos!!")
+                                                 .build());
         };
     }
 }
