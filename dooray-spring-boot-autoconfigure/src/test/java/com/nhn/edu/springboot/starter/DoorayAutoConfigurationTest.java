@@ -1,6 +1,6 @@
 package com.nhn.edu.springboot.starter;
 
-import com.nhnent.dooray.client.DoorayHookSender;
+import com.nhn.dooray.client.DoorayHookSender;
 import org.junit.Test;
 import org.springframework.boot.autoconfigure.AutoConfigurations;
 import org.springframework.boot.test.context.runner.ApplicationContextRunner;

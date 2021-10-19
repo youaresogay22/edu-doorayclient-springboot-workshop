@@ -1,7 +1,7 @@
 package com.nhn.edu.springboot.starter;
 
-import com.nhnent.dooray.client.DoorayHook;
-import com.nhnent.dooray.client.DoorayHookSender;
+import com.nhn.dooray.client.DoorayHook;
+import com.nhn.dooray.client.DoorayHookSender;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
