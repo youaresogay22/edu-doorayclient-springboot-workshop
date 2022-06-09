@@ -17,8 +17,6 @@ public class Application {
      * TODO (9) @AutowiredにDoorayHookSender依存性を注入します。
      */
 
-    @Autowired
-    private DoorayHookSender doorayHookSender;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
@@ -32,7 +30,7 @@ public class Application {
     @Bean
     public ApplicationListener<ApplicationReadyEvent> applicationListener() {
         return (event) -> {
-            doorayHookSender.send(DoorayHook.builder().botName("정지범").text("수고했다 친구들..!! 과제 잘하자!!").build());
+
         };
     }
 }

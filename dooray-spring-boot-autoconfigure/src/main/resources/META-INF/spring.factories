@@ -1,5 +1,5 @@
 # TODO (5)
-# com.nhn.edu.springboot.starter.DoorayAutoConfiguration ? Auto Configuration ????? EnableAutoConfiguration ? ??? ???.
+# make com.nhn.edu.springboot.starter.DoorayAutoConfiguration work as Auto Configuration.
 
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.nhn.edu.springboot.starter.DoorayAutoConfiguration
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#  com.nhn.edu.springboot.starter.DoorayAutoConfiguration
