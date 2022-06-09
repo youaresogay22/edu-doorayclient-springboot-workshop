@@ -1,10 +1,13 @@
 package com.nhn.edu.springboot.starter.application;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.annotation.Bean;
+import com.nhn.dooray.client.DoorayHookSender;
+import com.nhn.dooray.client.DoorayHook;
 
 @SpringBootApplication
 public class Application {
@@ -13,6 +16,9 @@ public class Application {
      * TODO (9) @Autowired 로 DoorayHookSender 의존성을 주입합니다.
      * TODO (9) @AutowiredにDoorayHookSender依存性を注入します。
      */
+
+    @Autowired
+    private DoorayHookSender doorayHookSender;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
@@ -25,6 +31,8 @@ public class Application {
      */
     @Bean
     public ApplicationListener<ApplicationReadyEvent> applicationListener() {
-        return (event) -> { };
+        return (event) -> {
+            doorayHookSender.send(DoorayHook.builder().botName("정지범").text("수고했다 친구들..!! 과제 잘하자!!").build());
+        };
     }
 }
