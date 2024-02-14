@@ -1,5 +1,0 @@
-# TODO (5)
-# make com.nhn.edu.springboot.starter.DoorayAutoConfiguration work as Auto Configuration.
-
-#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-#  com.nhn.edu.springboot.starter.DoorayAutoConfiguration
